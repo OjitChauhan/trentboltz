@@ -27,16 +27,16 @@ const Cursol = ({searchh}) => {
           
        <motion.div  className='font-normal relative' style={{fontFamily:"monoton"}} >
         <motion.div  >
-        <div className={`text-[2vw]  ${searchh?"text-[#005A9C]":"text-black"}`}><p>Beats solo</p></div>
-        <div className={`text-[3vw]   ${searchh?"text-[#005A9C]":"text-black"}`}><p>Branded</p></div>
-        <div className='text-[8vw] text-white tracking-[2vw]'
+        <div className={`text-[2vw]  max-sm:text-[2vh]  ${searchh?"text-[#005A9C]":"text-black"}`}><p>Beats solo</p></div>
+        <div className={`text-[3vw] max-sm:text-[3vh]  ${searchh?"text-[#005A9C]":"text-black"}`}><p>Branded</p></div>
+        <div className='text-[4vw] text-white  max-sm:text-[4vh]'
         
         ><p>LAPTOPS</p></div>
-        <motion.button className='font-sans px-4 text-[1vw] text-white py-1 bg-red-500 border-none outline-none rounded-full'
+        <motion.button className='font-sans px-4 max-sm:text-[1vh] text-[1vw] text-white py-1 bg-red-500 border-none outline-none rounded-full'
         whileHover={{backgroundColor:"#FF1493"}}>Shop By Category</motion.button>
        </motion.div>
        </motion.div>
-        <img src={laptop} alt="error" className='ml-[65vw] absolute  max-lg:w-[25vw]'  />
+        <img src={laptop} alt="error" className='ml-[65vw] max-sm:ml-[50vw] absolute  max-lg:w-[25vw] max-sm:w-[18vh]'  />
         </motion.div>
          :
 
@@ -45,14 +45,14 @@ const Cursol = ({searchh}) => {
           
        <motion.div className='font-normal ' style={{fontFamily:"monoton"}} initial={{opacity:0,y:30}} whileInView={{opacity:1,y:0}} transition={{staggerChildren:0.7,duration:1}}>
       <motion.div variants={{stagger}} >     
-         <div className={`text-[2vw]  ${searchh?"text-[#005A9C]":"text-black"}`} ><p>Beats solo</p></div>
-        <div className={`text-[4vw]  ${searchh?"text-[#005A9C]":"text-black"}`}><p>Wireless</p></div>
-        <div className='text-[8vw] text-white tracking-[2vw]'><p>HEADPHONE</p></div>
-        <motion.button className='font-sans px-3   text-[1vw] text-white py-1 bg-red-500 border-none outline-none rounded-full'
+         <div className={`text-[2vw] max-sm:text-[2vh] ${searchh?"text-[#005A9C]":"text-black"}`} ><p>Beats solo</p></div>
+        <div className={`text-[3vw] max-sm:text-[3vh] ${searchh?"text-[#005A9C]":"text-black"}`}><p>Wireless</p></div>
+        <div className='text-[4vw] max-sm:text-[4vh] text-white tracking-[2vw]'><p>HEADPHONE</p></div>
+        <motion.button className='font-sans px-3  max-sm:text-[1vh] text-[1vw] text-white py-1 bg-red-500 border-none outline-none rounded-full'
          whileHover={{backgroundColor:"#FF1493"}}>Shop By Category</motion.button>
        </motion.div>  
        </motion.div>
-        <img src={head} alt="error" className='ml-[65vw] absolute max-lg:w-[28vw] xl:w-[25vw]'  />
+        <img src={head} alt="error" className='ml-[65vw] max-sm:ml-[50vw] absolute max-lg:w-[28vw] xl:w-[25vw] max-sm:w-[18vh]'  />
         </motion.div>
 }
       </div>

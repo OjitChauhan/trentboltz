@@ -24,7 +24,7 @@ const Card = () => {
             <div className='text-white font-bold text-[16px] max-sm:text-[8px]'>Air Sale</div>
                 <div className='text-white font-bold text-3xl text-[24px] max-sm:text-[16px] tracking-wider'>Winter Sale</div>
                 <div className='max-sm:text-[8px] text-[16px] font-bold opacity-75 max-sm:text-[8px] text-white'>Lorem, ipsum dolor.</div>
-                <motion.button className='bg-white text-[16px] text-red-500 rounded-full max-sm:text-[8px]font-bold px-4 py-1 mt-2' onHoverStart={()=>scale.set(1.2)} onHoverEnd={()=>scale.set(1)} style={{scale}} >Start</motion.button>
+                <motion.button  className='bg-white text-red-500  max-sm:text-[8px] rounded-full font-bold text-[12px] px-4 py-1 mt-2' onHoverStart={()=>scale.set(1.2)} onHoverEnd={()=>scale.set(1)} style={{scale}} >Start</motion.button>
 
             </div>
             </div>

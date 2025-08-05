@@ -11,7 +11,7 @@ const Products = ({searchh}) => {
     <div className='space-y-3 mt-10'>
         <div className='overflow-hidden flex  justify-center items-center'>
             <div className='flex flex-col items-center space-y-2'>
-            <div className='text-2xl text-black font-bold'>
+            <div className={`text-2xl ${searchh?"text-white":"text-black"} font-bold`}>
                 Best Seller Products
             </div>
             <div className='text-sm text-gray-900 opacity-[0.7]'>Lorem, ipsum.3345</div>
